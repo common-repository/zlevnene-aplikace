@@ -1,0 +1,1 @@
+(function(){jQuery(document).ready(function(){jQuery.get("/wp-admin/admin-ajax.php",{action:"za_ajax",category:jQuery("#za-widget-apps").attr("data-platforms"),posts:jQuery("#za-widget-apps").attr("data-posts")},function(a){jQuery("#za-widget-apps").html(a)})})})();
